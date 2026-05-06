@@ -10,7 +10,7 @@ const inter = Inter({
   display: "swap",
 });
 
-const SITE_URL = "https://kelvintan.dev"; // update when you deploy
+const SITE_URL = "https://my-portfolio-omega-puce-9ainbmt4xm.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
