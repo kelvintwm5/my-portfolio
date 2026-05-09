@@ -3,20 +3,20 @@ import ProjectCard from "@/components/ProjectCard";
 import { getAllProjects } from "@/lib/projects";
 
 export const metadata: Metadata = {
-  title: "Kelvin Tan — AI Engineer",
+  title: "Kelvin Tan — Product Manager",
   description:
-    "AI engineer building language model systems that ship to production — RAG pipelines, evaluation frameworks, and developer tooling.",
+    "Product manager based in Singapore building consumer subscription products and exploring AI.",
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
-    title: "Kelvin Tan — AI Engineer",
+    title: "Kelvin Tan — Product Manager",
     description:
-      "AI engineer building language model systems that ship to production.",
+      "Product manager based in Singapore building consumer subscription products and exploring AI.",
   },
   twitter: {
-    title: "Kelvin Tan — AI Engineer",
+    title: "Kelvin Tan — Product Manager",
     description:
-      "AI engineer building language model systems that ship to production.",
+      "Product manager based in Singapore building consumer subscription products and exploring AI.",
   },
 };
 
@@ -28,12 +28,12 @@ export default function HomePage() {
       {/* Hero */}
       <section className="mb-14">
         <h1 className="text-2xl sm:text-3xl font-bold tracking-tight mb-4 text-balance">
-          Building with AI
+          Exploring AI as a Product Manager
         </h1>
         <p className="text-base text-muted max-w-xl leading-relaxed">
-          I&apos;m Kelvin — an AI engineer focused on turning language models
-          into reliable, useful products. Below is a selection of projects spanning
-          RAG systems, developer tooling, and evaluation infrastructure.
+          I&apos;m Kelvin — a product manager based in Singapore. I work on
+          consumer subscription products and I&apos;m using this space to
+          document what I&apos;m learning as I explore and build with AI tools.
         </p>
       </section>
 

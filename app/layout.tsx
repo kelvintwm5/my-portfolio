@@ -15,11 +15,11 @@ const SITE_URL = "https://my-portfolio-omega-puce-9ainbmt4xm.vercel.app";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Kelvin Tan — AI Engineer",
+    default: "Kelvin Tan — Product Manager",
     template: "%s | Kelvin Tan",
   },
   description:
-    "AI engineer building language model systems that ship to production — RAG pipelines, evaluation frameworks, and developer tooling.",
+    "Product manager based in Singapore building consumer subscription products and exploring AI.",
   authors: [{ name: "Kelvin Tan", url: SITE_URL }],
   creator: "Kelvin Tan",
   robots: {
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: SITE_URL,
     siteName: "Kelvin Tan",
-    title: "Kelvin Tan — AI Engineer",
+    title: "Kelvin Tan — Product Manager",
     description:
-      "AI engineer building language model systems that ship to production — RAG pipelines, evaluation frameworks, and developer tooling.",
+      "Product manager based in Singapore building consumer subscription products and exploring AI.",
     images: [
       {
         url: "/og.png",      // place a 1200×630 image at public/og.png
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kelvin Tan — AI Engineer",
     description:
-      "AI engineer building language model systems that ship to production.",
+      "Product manager based in Singapore building consumer subscription products and exploring AI.",
     images: ["/og.png"],
     creator: "@kelvintan",   // update to your handle
   },

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Kelvin Tan — AI engineer focused on RAG systems, developer tooling, and production-grade LLM evaluation.",
+    "Kelvin Tan — product manager based in Singapore, building consumer subscription products and exploring AI.",
   alternates: { canonical: "/about" },
   openGraph: {
     url: "/about",
@@ -23,43 +23,43 @@ export const metadata: Metadata = {
 
 const FOCUS_AREAS = [
   {
-    label: "AI",
-    color: "border-indigo-200 bg-indigo-50/50",
-    labelColor: "text-indigo-600",
-    heading: "Language Models",
-    body: "RAG pipelines, evaluation frameworks, and the production gap between a promising demo and a reliable feature. I care most about the parts that determine whether an AI system can actually be trusted.",
-  },
-  {
     label: "Product",
     color: "border-emerald-200 bg-emerald-50/50",
     labelColor: "text-emerald-600",
-    heading: "Developer Experience",
-    body: "Tooling that gets out of the way. I build for engineers first — fast feedback loops, honest error messages, and zero-surprise behavior. Good DX is a product decision, not an afterthought.",
+    heading: "Subscription Products",
+    body: "Building consumer subscription products at scale across APAC and EU. My focus is on the full lifecycle — from launching core features to driving sustainable growth.",
+  },
+  {
+    label: "AI",
+    color: "border-indigo-200 bg-indigo-50/50",
+    labelColor: "text-indigo-600",
+    heading: "Exploring AI",
+    body: "Learning by doing — experimenting with AI tools, building small projects, and figuring out how product thinking applies when the technology is this new.",
   },
   {
     label: "Systems",
     color: "border-sky-200 bg-sky-50/50",
     labelColor: "text-sky-600",
     heading: "Systems Thinking",
-    body: "How pieces fit, break, and recover. Latency budgets, failure modes, dependency graphs. I came to AI from the infrastructure side and still think about correctness before cleverness.",
+    body: "How product decisions ripple through a business. Growth, retention, pricing, and the feedback loops that determine whether a product scales or stalls.",
   },
 ] as const;
 
 const PHILOSOPHY = [
   {
-    principle: "Production is the proof.",
+    principle: "Ship it, then improve it.",
     detail:
-      "A model that works in a notebook is a prototype. What matters is what happens under real load, with real inputs, when something goes wrong.",
+      "A feature in front of users teaches you more than a month of internal debate. Get something real out, watch what happens, and iterate from there.",
   },
   {
-    principle: "The unsexy parts are usually the important parts.",
+    principle: "Growth comes from understanding why users stay, not just why they sign up.",
     detail:
-      "Evals, guardrails, logging, fallbacks — nobody demos these, but they're what separates AI features that ship from ones that get quietly rolled back.",
+      "Acquisition is easy to optimise. Retention is where the real work is — and it forces you to be honest about whether you're actually delivering value.",
   },
   {
-    principle: "Prefer boring technology where the problem is already solved.",
+    principle: "The best product decisions are made close to the data.",
     detail:
-      "Novelty has a cost. I reach for the interesting new thing when it genuinely changes what's possible — not to avoid learning the proven one.",
+      "Intuition matters, but it needs to be grounded. I try to stay close to usage data, user feedback, and the numbers that actually reflect what's happening.",
   },
 ];
 
@@ -82,17 +82,17 @@ export default function AboutPage() {
         <h1 className="text-3xl font-bold tracking-tight mb-6">Kelvin Tan</h1>
         <div className="space-y-4 text-[15px] leading-relaxed text-foreground">
           <p>
-            I&apos;m an AI engineer based in Singapore. I build systems that
-            make language models useful in practice — with an emphasis on
-            reliability, evaluation, and the unsexy parts that determine whether
-            an AI feature actually ships.
+            I&apos;m a product manager based in Singapore, building a consumer
+            subscription product used by millions of users across APAC and EU.
+            I&apos;ve been with the product from the ground up — launching the
+            core features that got it off the ground and now focused on taking
+            it to its next phase of growth.
           </p>
           <p>
-            My background spans backend engineering and machine learning. I came
-            to LLMs from the infrastructure side, which means I spend as much
-            time thinking about failure modes as I do about capabilities. I
-            contribute to open-source tooling and occasionally write about
-            practical LLM engineering.
+            Outside of work, I&apos;m exploring AI tools and building with them
+            hands-on. This site is where I document that journey — what I&apos;m
+            learning, what I&apos;m building, and what I&apos;m figuring out
+            along the way.
           </p>
         </div>
       </section>
