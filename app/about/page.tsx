@@ -140,7 +140,7 @@ export default function AboutPage() {
       {/* Links */}
       <div className="flex flex-wrap gap-3">
         <a
-          href="https://linkedin.com/in/kelvintan"
+          href="https://www.linkedin.com/in/kelvin-tan-b6ab42a6/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium bg-accent text-white rounded-lg hover:bg-accent-hover transition-colors"
