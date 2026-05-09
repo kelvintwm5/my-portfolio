@@ -47,19 +47,19 @@ const FOCUS_AREAS = [
 
 const PHILOSOPHY = [
   {
-    principle: "Ship it, then improve it.",
+    principle: "Embrace a growth mindset.",
     detail:
-      "A feature in front of users teaches you more than a month of internal debate. Get something real out, watch what happens, and iterate from there.",
+      "I stay curious about new technologies and actively explore how they can simplify workflows and solve complex problems. If something looks promising, I'd rather try it and learn than wait on the sidelines.",
   },
   {
-    principle: "Growth comes from understanding why users stay, not just why they sign up.",
+    principle: "Everyone goes further together.",
     detail:
-      "Acquisition is easy to optimise. Retention is where the real work is — and it forces you to be honest about whether you're actually delivering value.",
+      "I believe the best outcomes come from collaboration — sharing learnings openly, building on each other's ideas, and creating an environment where the team's collective knowledge grows.",
   },
   {
-    principle: "The best product decisions are made close to the data.",
+    principle: "Zoom in on the details, zoom out on the strategy.",
     detail:
-      "Intuition matters, but it needs to be grounded. I try to stay close to usage data, user feedback, and the numbers that actually reflect what's happening.",
+      "Good decisions require both. I pay close attention to the specifics while keeping the bigger picture in view — knowing when to go deep and when to step back is what separates good work from great work.",
   },
 ];
 
