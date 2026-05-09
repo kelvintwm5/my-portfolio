@@ -157,12 +157,6 @@ export default function AboutPage() {
           Resume PDF
           <DownloadIcon />
         </a>
-        <a
-          href="mailto:kelvintwm5@gmail.com"
-          className="inline-flex items-center gap-2 px-4 py-2 text-sm text-muted hover:text-foreground transition-colors"
-        >
-          kelvintwm5@gmail.com
-        </a>
       </div>
     </div>
   );
