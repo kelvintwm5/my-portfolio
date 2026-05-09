@@ -5,7 +5,7 @@ export default function Footer() {
         <span>© {new Date().getFullYear()} Kelvin Tan</span>
         <div className="flex items-center gap-5">
           <a
-            href="https://github.com"
+            href="https://github.com/kelvintwm5"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors"
